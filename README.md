@@ -1,4 +1,3 @@
-# InjectPrototype
 
 # String Inject Prototype
 
@@ -7,9 +6,6 @@
 - String Inject Prototype, JavaScript’te bir string içindeki {{ … }} ifadeleri ile dinamik templateler oluşturmak için kullanılan bir yöntemdir.
 
 - Bu yöntem, bir string’i bir obje ile enjekte ederek, objenin özelliklerini veya fonksiyonlarını string içinde kullanmaya olanak sağlar.
-
-- Şablon metni içinde birden çok dinamik alan olabilir ve her biri ayrı ayrı hesaplamalar yapabilir.
-- Şablon metni içindeki alanlar, nesnenin özellikleri veya hesaplamalar içerebilir.
 
   Örnekler:
         - 'Hello {{ name }}'.inject({ name: 'Berfin' });
