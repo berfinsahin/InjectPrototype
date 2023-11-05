@@ -8,6 +8,7 @@
 - Bu yöntem, bir string’i bir obje ile enjekte ederek, objenin özelliklerini veya fonksiyonlarını string içinde kullanmaya olanak sağlar.
 
   Örnekler:
+  
         - 'Hello {{ name }}'.inject({ name: 'Berfin' });
            //Çıktı: Hello Berfin
 
